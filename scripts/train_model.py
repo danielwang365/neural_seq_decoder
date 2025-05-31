@@ -2,8 +2,8 @@
 modelName = 'speechBaseline4'
 
 args = {}
-args['outputDir'] = '/oak/stanford/groups/henderj/stfan/logs/speech_logs/' + modelName
-args['datasetPath'] = '/oak/stanford/groups/henderj/fwillett/speech/ptDecoder_ctc'
+args['outputDir'] = 'C:/Users/danie/OneDrive/Documents/GitHub/neural_seq_decoder/logs/speech_logs/' + modelName
+args['datasetPath'] = 'C:/Users/danie/OneDrive/Documents/GitHub/neural_seq_decoder/speechBCI_data/pickled_data.pkl'
 args['seqLen'] = 150
 args['maxTimeSeriesLen'] = 1200
 args['batchSize'] = 64
