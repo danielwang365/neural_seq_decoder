@@ -71,7 +71,7 @@ tail -f training.log
 
 ### Step 7: Download Results and Cleanup
 
-**📥 Download your trained models** (see [DOWNLOADING_MODELS.md](DOWNLOADING_MODELS.md) for detailed guide):
+**📥 Download your trained models**
 
 ```bash
 # Download trained models (run from your LOCAL machine)
@@ -168,7 +168,6 @@ model = loadModel('./logs/speech_logs/speechBaseline4/', device='cuda')
 
 ## Next Steps
 
-1. **📖 Read**: [DOWNLOADING_MODELS.md](DOWNLOADING_MODELS.md) for detailed download instructions
-2. **🔍 Analyze**: Review training curves and model performance
-3. **🚀 Deploy**: Use your trained model for inference
-4. **🔄 Iterate**: Experiment with different hyperparameters 
+1. **🔍 Analyze**: Review training curves and model performance
+2. **🚀 Deploy**: Use your trained model for inference
+3. **🔄 Iterate**: Experiment with different hyperparameters 
