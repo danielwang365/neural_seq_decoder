@@ -154,7 +154,7 @@ Once downloaded, load your model:
 ```python
 import sys
 sys.path.append('src')
-from neural_decoder.neural_decoder_trainer_cloud import loadModel
+from neural_decoder.neural_decoder_trainer import loadModel
 
 # Load the best model
 model = loadModel('./logs/speech_logs/speechBaseline4/', device='cuda')
